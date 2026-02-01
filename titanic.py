@@ -1,7 +1,11 @@
 """
 Prediction de la survie d'un individu sur le Titanic
 """
+
 import os
+from dotenv import load_dotenv
+import argparse
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -14,13 +18,27 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import confusion_matrix
 
-from dotenv import dotenv_values
-
-config = dotenv_values(".env")
-N_TREES = 20
 MAX_DEPTH = None
 MAX_FEATURES = "sqrt"
-JETON_API = config.get("JETON_API", "")
+
+load_dotenv()
+
+# ENVIRONMENT CONFIGURATION ---------------------------
+
+parser = argparse.ArgumentParser(description="Paramètres du random forest")
+parser.add_argument(
+    "--n_trees", type=int, default=20, help="Nombre d'arbres"
+)
+args = parser.parse_args()
+
+n_trees = args.n_trees
+jeton_api = os.environ.get("JETON_API", "")
+
+if jeton_api.startswith("$"):
+    print("API token has been configured properly")
+else:
+    print("API token has not been configured")
+
 
 # IMPORT ET EXPLORATION DONNEES --------------------------------
 
@@ -53,6 +71,8 @@ y = TrainingData["Survived"]
 X = TrainingData.drop("Survived", axis="columns")
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1)
+pd.concat([X_train, y_train], axis = 1).to_csv("train.csv")
+pd.concat([X_test, y_test], axis = 1).to_csv("test.csv")
 
 
 # PIPELINE ----------------------------
@@ -93,7 +113,11 @@ preprocessor = ColumnTransformer(
 pipe = Pipeline(
     [
         ("preprocessor", preprocessor),
-        ("classifier", RandomForestClassifier(n_estimators=N_TREES)),
+        ("classifier", RandomForestClassifier(
+            n_estimators=n_trees,
+            max_depth=MAX_DEPTH,
+            max_features=MAX_FEATURES
+        )),
     ]
 )
 

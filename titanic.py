@@ -1,7 +1,7 @@
 """
 Prediction de la survie d'un individu sur le Titanic
 """
-
+import os
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -14,11 +14,13 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import confusion_matrix
 
+from dotenv import dotenv_values
+
+config = dotenv_values(".env")
 N_TREES = 20
 MAX_DEPTH = None
 MAX_FEATURES = "sqrt"
-JETON_API = "$trotskitueleski1917"
-
+JETON_API = config.get("JETON_API", "")
 
 # IMPORT ET EXPLORATION DONNEES --------------------------------
 

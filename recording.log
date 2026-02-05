@@ -1,0 +1,582 @@
+2026-02-04 21:09 - INFO - API token has been configured properly
+2026-02-04 21:10 - INFO - API token has been configured properly
+2026-02-04 21:11 - INFO - API token has been configured properly
+2026-02-04 21:12 - INFO - API token has been configured properly
+2026-02-04 21:12 - INFO - 76.7% de bonnes réponses sur les données de test pour validation
+2026-02-04 21:12 - INFO - --------------------
+2026-02-04 21:12 - INFO - matrice de confusion
+2026-02-04 21:12 - INFO - [[50  8]
+ [13 19]]
+2026-02-05 15:36 - INFO - API token has been configured properly
+2026-02-05 15:45 - INFO - API token has been configured properly
+2026-02-05 15:47 - INFO - API token has been configured properly
+2026-02-05 15:48 - INFO - API token has been configured properly
+2026-02-05 16:02 - INFO - API token has been configured properly
+2026-02-05 16:02 - DEBUG - Using selector: EpollSelector
+2026-02-05 16:02 - DEBUG - Setting up s3fs instance
+2026-02-05 16:02 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-02-05 16:02 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-02-05 16:02 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-02-05 16:02 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-02-05 16:02 - DEBUG - RC: caching enabled? False (explicit option is False)
+2026-02-05 16:02 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-02-05 16:02 - DEBUG - Looking for credentials via: env
+2026-02-05 16:02 - INFO - Found credentials in environment variables.
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/endpoints.json
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+2026-02-05 16:02 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f406b8d80e0>
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/partitions.json
+2026-02-05 16:02 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f406b5b0fe0>
+2026-02-05 16:02 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f406b5b0d60>
+2026-02-05 16:02 - DEBUG - Setting s3 timeout as (5, 15)
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/_retry.json
+2026-02-05 16:02 - DEBUG - Registering retry handlers for service: s3
+2026-02-05 16:02 - DEBUG - Registering S3 region redirector handler
+2026-02-05 16:02 - DEBUG - Registering S3Express Identity Resolver
+2026-02-05 16:02 - DEBUG - CALL: head_object - ({},) - {'Bucket': 'ensae-reproductibilite', 'Key': 'data/raw/data.parquet'}
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f406b8d9bc0>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f406b8d9b20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7f406b8dbe20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f3fbffd16a0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7f3fc50ed2b0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f406b8d9940>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x7f406b8e8540>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7f406b8e8040>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f3fbffd16a0>>
+2026-02-05 16:02 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'ensae-reproductibilite', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'data/raw/data.parquet', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:02 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/ensae-reproductibilite
+2026-02-05 16:02 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:02 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f406b8d9ee0>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f3fbffd17f0>>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x7f406b8d8900>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x7f406b8db420>
+2026-02-05 16:02 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/data/raw/data.parquet', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/g,b,Z,D,N cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/ensae-reproductibilite/data/raw/data.parquet', 'url': 'https://minio.lab.sspcloud.fr/ensae-reproductibilite/data/raw/data.parquet', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7f3fbffbc2d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'ensae-reproductibilite', 'params': {'Bucket': 'ensae-reproductibilite', 'Key': 'data/raw/data.parquet'}}, 'input_params': {'Bucket': 'ensae-reproductibilite', 'Key': 'data/raw/data.parquet'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7f3fc50ef770>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7f3fc50ed2b0>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f406b8d96c0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x7f406b8dbf60>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7f406b8e85e0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f3fbffd17f0>>
+2026-02-05 16:02 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:02 - DEBUG - CanonicalRequest:
+HEAD
+/ensae-reproductibilite/data/raw/data.parquet
+
+host:minio.lab.sspcloud.fr
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160211Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:02 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160211Z
+20260205/us-east-1/s3/aws4_request
+5c6493e65a700a53a1cce8a39749c5715b6957d1794aacaedd50533e9b63c042
+2026-02-05 16:02 - DEBUG - Signature:
+44f803d69a7240ee7ca0da3a499b3328ebf0db217ea6e009c33bac5aeeee9cdc
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7f3fbffbcf50>>
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x7f406b8dbd80>
+2026-02-05 16:02 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://minio.lab.sspcloud.fr/ensae-reproductibilite/data/raw/data.parquet, headers={'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/g,b,Z,D,N cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160211Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=44f803d69a7240ee7ca0da3a499b3328ebf0db217ea6e009c33bac5aeeee9cdc', 'amz-sdk-invocation-id': b'738689f4-c690-46fb-ba20-282baa993bd0', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:02 - DEBUG - Certificate path: /opt/python/lib/python3.13/site-packages/certifi/cacert.pem
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x7f406b8e8360>
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x7f406b8e8180>
+2026-02-05 16:02 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:02:11 GMT', 'content-length': '0', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': '94e13c64295688e82f2bfcbe21a89e8786bdb3ee4ba1c81517caa47921f690b1', 'x-amz-request-id': '18916523829F2D78', 'x-content-type-options': 'nosniff', 'x-minio-error-code': 'AccessDenied', 'x-minio-error-desc': '"Access Denied."', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:02 - DEBUG - Response body:
+b''
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x7f406b8e84a0>
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7f3fbffd1550>
+2026-02-05 16:02 - DEBUG - No retry needed.
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f3fbffd16a0>>
+2026-02-05 16:02 - DEBUG - Client error (maybe retryable): An error occurred (403) when calling the HeadObject operation: Forbidden
+2026-02-05 16:02 - INFO - API token has been configured properly
+2026-02-05 16:02 - DEBUG - Using selector: EpollSelector
+2026-02-05 16:02 - DEBUG - Setting up s3fs instance
+2026-02-05 16:02 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-02-05 16:02 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-02-05 16:02 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-02-05 16:02 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-02-05 16:02 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-02-05 16:02 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-02-05 16:02 - DEBUG - RC: caching enabled? False (explicit option is False)
+2026-02-05 16:02 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-02-05 16:02 - DEBUG - Looking for credentials via: env
+2026-02-05 16:02 - INFO - Found credentials in environment variables.
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/endpoints.json
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+2026-02-05 16:02 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f067d9a00e0>
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/partitions.json
+2026-02-05 16:02 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f067d65cfe0>
+2026-02-05 16:02 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f067d65cd60>
+2026-02-05 16:02 - DEBUG - Setting s3 timeout as (5, 15)
+2026-02-05 16:02 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/_retry.json
+2026-02-05 16:02 - DEBUG - Registering retry handlers for service: s3
+2026-02-05 16:02 - DEBUG - Registering S3 region redirector handler
+2026-02-05 16:02 - DEBUG - Registering S3Express Identity Resolver
+2026-02-05 16:02 - DEBUG - CALL: head_object - ({},) - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f067d9a1bc0>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f067d9a1b20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7f067d9a3e20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7f05d722d2b0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f067d9a1940>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x7f067d9ac540>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7f067d9ac040>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:02 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:02 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:02 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f067d9a1ee0>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f05d60317f0>>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x7f067d9a0900>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x7f067d9a3420>
+2026-02-05 16:02 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.parquet', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/Z,b,D,N,g cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7f05d62182d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7f05d722f770>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7f05d722d2b0>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f067d9a16c0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x7f067d9a3f60>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7f067d9ac5e0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f05d60317f0>>
+2026-02-05 16:02 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:02 - DEBUG - CanonicalRequest:
+HEAD
+/mcoppa06/ensae-reproductibilite/data/raw/data.parquet
+
+host:minio.lab.sspcloud.fr
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160257Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:02 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160257Z
+20260205/us-east-1/s3/aws4_request
+74b95aa72a513f3e69c2c97959330d07e5d350d63ca83768cfa32abf044a9bdc
+2026-02-05 16:02 - DEBUG - Signature:
+e1aaf83f09b491911ef048b8ba6a663bdf4a2acc670a95bb4ef6d2e299207a2b
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7f05d6218f50>>
+2026-02-05 16:02 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x7f067d9a3d80>
+2026-02-05 16:02 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet, headers={'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/Z,b,D,N,g cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160257Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=e1aaf83f09b491911ef048b8ba6a663bdf4a2acc670a95bb4ef6d2e299207a2b', 'amz-sdk-invocation-id': b'2ae6ae93-699e-4a21-93e2-306b7ac4979e', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:02 - DEBUG - Certificate path: /opt/python/lib/python3.13/site-packages/certifi/cacert.pem
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x7f067d9ac360>
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x7f067d9ac180>
+2026-02-05 16:02 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:02:57 GMT', 'content-type': 'application/octet-stream', 'content-length': '36778', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'last-modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': 'c03a4092da4644d3e14d2965a90c5fa3a7f10067eee00244bd436b2c0f8f57c2', 'x-amz-request-id': '1891652E3662F9A1', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:02 - DEBUG - Response body:
+b''
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x7f067d9ac4a0>
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7f05d6031550>
+2026-02-05 16:02 - DEBUG - No retry needed.
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - Fetch: mcoppa06/ensae-reproductibilite/data/raw/data.parquet, 0-36778
+2026-02-05 16:02 - DEBUG - CALL: get_object - () - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'Range': 'bytes=0-36777', 'IfMatch': '"b9003e173b0cf3f92b76b9127ac5a6bb"'}
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f067d9a1bc0>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f067d9a1b20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7f067d9a3e20>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7f05d722d2b0>>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f067d9a1940>
+2026-02-05 16:02 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x7f067d9ac540>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7f067d9ac040>
+2026-02-05 16:02 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:02 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:02 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:02 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:02 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f067d9a1ee0>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f05d60317f0>>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x7f067d9a0900>
+2026-02-05 16:02 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x7f067d9a3420>
+2026-02-05 16:02 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.parquet', 'query_string': {}, 'method': 'GET', 'headers': {'Range': 'bytes=0-36777', 'If-Match': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/Z,b,D,N,g cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7f05d62182d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'Range': 'bytes=0-36777', 'IfMatch': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2026-02-05 16:02 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7f05d722f770>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7f05d722d2b0>>
+2026-02-05 16:02 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f067d9a16c0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x7f067d9a3f60>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7f067d9ac5e0>
+2026-02-05 16:02 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f05d60317f0>>
+2026-02-05 16:02 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:02 - DEBUG - CanonicalRequest:
+GET
+/mcoppa06/ensae-reproductibilite/data/raw/data.parquet
+
+host:minio.lab.sspcloud.fr
+if-match:"b9003e173b0cf3f92b76b9127ac5a6bb"
+range:bytes=0-36777
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160257Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:02 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160257Z
+20260205/us-east-1/s3/aws4_request
+411d7c053d1d696bc50ac494afcf9214c3152bc720cfb40a450ba6dc8a7b6ff2
+2026-02-05 16:02 - DEBUG - Signature:
+ab88ad842649aa736de7e04fe837343e03d33b8dc6de75006202146bd66cd5f7
+2026-02-05 16:02 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7f05d6218f50>>
+2026-02-05 16:02 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x7f067d9a3d80>
+2026-02-05 16:02 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet, headers={'Range': b'bytes=0-36777', 'If-Match': b'"b9003e173b0cf3f92b76b9127ac5a6bb"', 'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/Z,b,D,N,g cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160257Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=ab88ad842649aa736de7e04fe837343e03d33b8dc6de75006202146bd66cd5f7', 'amz-sdk-invocation-id': b'a6cf4224-e3d4-41a8-8fe9-bd437b5cf7c9', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:02 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x7f067d9ac360>
+2026-02-05 16:02 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x7f067d9ac180>
+2026-02-05 16:02 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:02:57 GMT', 'content-type': 'application/octet-stream', 'content-length': '36778', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'content-range': 'bytes 0-36777/36778', 'etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'last-modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': 'fbfa8ed6b07771549149d81175cd4fddd4c03141847d86f08e68fcd197d7cb47', 'x-amz-request-id': '1891652E385C4BC0', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:02 - DEBUG - Response body:
+<ClientResponse(https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet) [206 Partial Content]>
+<CIMultiDictProxy('Date': 'Thu, 05 Feb 2026 16:02:57 GMT', 'Content-Type': 'application/octet-stream', 'Content-Length': '36778', 'Connection': 'keep-alive', 'Accept-Ranges': 'bytes', 'Content-Range': 'bytes 0-36777/36778', 'Etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'Last-Modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin', 'Vary': 'Accept-Encoding', 'X-Amz-Id-2': 'fbfa8ed6b07771549149d81175cd4fddd4c03141847d86f08e68fcd197d7cb47', 'X-Amz-Request-Id': '1891652E385C4BC0', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '6376', 'X-Ratelimit-Remaining': '6376', 'X-Xss-Protection': '1; mode=block')>
+
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x7f067d9ac4a0>
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.GetObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7f05d6031550>
+2026-02-05 16:02 - DEBUG - No retry needed.
+2026-02-05 16:02 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f05d60316a0>>
+2026-02-05 16:02 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.parquet> read: 0 - 262144  , readahead: 0 hits, 1 misses, 36778 total requested bytes
+2026-02-05 16:03 - INFO - API token has been configured properly
+2026-02-05 16:03 - DEBUG - Using selector: EpollSelector
+2026-02-05 16:03 - DEBUG - Setting up s3fs instance
+2026-02-05 16:03 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-02-05 16:03 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-02-05 16:03 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-02-05 16:03 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-02-05 16:03 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-02-05 16:03 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-02-05 16:03 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-02-05 16:03 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-02-05 16:03 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-02-05 16:03 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-02-05 16:03 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-02-05 16:03 - DEBUG - RC: caching enabled? False (explicit option is False)
+2026-02-05 16:03 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-02-05 16:03 - DEBUG - Looking for credentials via: env
+2026-02-05 16:03 - INFO - Found credentials in environment variables.
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/endpoints.json
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+2026-02-05 16:03 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa80aa0c0e0>
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/partitions.json
+2026-02-05 16:03 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa80a6c4fe0>
+2026-02-05 16:03 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa80a6c4d60>
+2026-02-05 16:03 - DEBUG - Setting s3 timeout as (5, 15)
+2026-02-05 16:03 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/_retry.json
+2026-02-05 16:03 - DEBUG - Registering retry handlers for service: s3
+2026-02-05 16:03 - DEBUG - Registering S3 region redirector handler
+2026-02-05 16:03 - DEBUG - Registering S3Express Identity Resolver
+2026-02-05 16:03 - DEBUG - CALL: head_object - ({},) - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7fa80aa0dbc0>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7fa80aa0db20>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fa80aa0fe20>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7fa763fb92b0>>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7fa80aa0d940>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x7fa80aa1c540>
+2026-02-05 16:03 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fa80aa1c040>
+2026-02-05 16:03 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:03 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:03 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:03 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:03 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7fa80aa0dee0>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7fa7630317f0>>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x7fa80aa0c900>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x7fa80aa0f420>
+2026-02-05 16:03 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.parquet', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/b,D,Z,N,g cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7fa7630182d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2026-02-05 16:03 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7fa763fbb770>>
+2026-02-05 16:03 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7fa763fb92b0>>
+2026-02-05 16:03 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7fa80aa0d6c0>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x7fa80aa0ff60>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7fa80aa1c5e0>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7fa7630317f0>>
+2026-02-05 16:03 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:03 - DEBUG - CanonicalRequest:
+HEAD
+/mcoppa06/ensae-reproductibilite/data/raw/data.parquet
+
+host:minio.lab.sspcloud.fr
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160328Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:03 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160328Z
+20260205/us-east-1/s3/aws4_request
+06b6c2c319fb6726aa3b10caa64364f53936f2ca794ff56a7f333ad5e8602101
+2026-02-05 16:03 - DEBUG - Signature:
+e4ecd557356e9adadf71ef5a9ed862e6d0268158a60c2b3cae213c52333e6c56
+2026-02-05 16:03 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7fa763018f50>>
+2026-02-05 16:03 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x7fa80aa0fd80>
+2026-02-05 16:03 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet, headers={'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/b,D,Z,N,g cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160328Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=e4ecd557356e9adadf71ef5a9ed862e6d0268158a60c2b3cae213c52333e6c56', 'amz-sdk-invocation-id': b'd264cab8-9e96-4c67-8076-f63dc7ba131a', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:03 - DEBUG - Certificate path: /opt/python/lib/python3.13/site-packages/certifi/cacert.pem
+2026-02-05 16:03 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x7fa80aa1c360>
+2026-02-05 16:03 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x7fa80aa1c180>
+2026-02-05 16:03 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:03:28 GMT', 'content-type': 'application/octet-stream', 'content-length': '36778', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'last-modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': 'fbfa8ed6b07771549149d81175cd4fddd4c03141847d86f08e68fcd197d7cb47', 'x-amz-request-id': '18916535632CCE68', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:03 - DEBUG - Response body:
+b''
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x7fa80aa1c4a0>
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7fa763031550>
+2026-02-05 16:03 - DEBUG - No retry needed.
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - Fetch: mcoppa06/ensae-reproductibilite/data/raw/data.parquet, 0-36778
+2026-02-05 16:03 - DEBUG - CALL: get_object - () - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'Range': 'bytes=0-36777', 'IfMatch': '"b9003e173b0cf3f92b76b9127ac5a6bb"'}
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fa80aa0dbc0>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fa80aa0db20>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fa80aa0fe20>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7fa763fb92b0>>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fa80aa0d940>
+2026-02-05 16:03 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x7fa80aa1c540>
+2026-02-05 16:03 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fa80aa1c040>
+2026-02-05 16:03 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:03 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:03 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:03 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:03 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7fa80aa0dee0>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7fa7630317f0>>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x7fa80aa0c900>
+2026-02-05 16:03 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x7fa80aa0f420>
+2026-02-05 16:03 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.parquet', 'query_string': {}, 'method': 'GET', 'headers': {'Range': 'bytes=0-36777', 'If-Match': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/b,D,Z,N,g cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7fa7630182d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet', 'Range': 'bytes=0-36777', 'IfMatch': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.parquet'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2026-02-05 16:03 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7fa763fbb770>>
+2026-02-05 16:03 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7fa763fb92b0>>
+2026-02-05 16:03 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7fa80aa0d6c0>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x7fa80aa0ff60>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7fa80aa1c5e0>
+2026-02-05 16:03 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7fa7630317f0>>
+2026-02-05 16:03 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:03 - DEBUG - CanonicalRequest:
+GET
+/mcoppa06/ensae-reproductibilite/data/raw/data.parquet
+
+host:minio.lab.sspcloud.fr
+if-match:"b9003e173b0cf3f92b76b9127ac5a6bb"
+range:bytes=0-36777
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160328Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:03 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160328Z
+20260205/us-east-1/s3/aws4_request
+acb9b21437ac09ec50d719fcdbda48e185045bf35e98c5f05881238ed9a3ebb7
+2026-02-05 16:03 - DEBUG - Signature:
+4f22734e2690d282d838d44b38ca82cc5b0a949db43cc8a12ee71b2bb3a4a59e
+2026-02-05 16:03 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7fa763018f50>>
+2026-02-05 16:03 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x7fa80aa0fd80>
+2026-02-05 16:03 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet, headers={'Range': b'bytes=0-36777', 'If-Match': b'"b9003e173b0cf3f92b76b9127ac5a6bb"', 'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/b,D,Z,N,g cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160328Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=4f22734e2690d282d838d44b38ca82cc5b0a949db43cc8a12ee71b2bb3a4a59e', 'amz-sdk-invocation-id': b'a2b45d77-3847-4eb8-b469-03754b00174c', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:03 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2026-02-05 16:03 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x7fa80aa1c360>
+2026-02-05 16:03 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x7fa80aa1c180>
+2026-02-05 16:03 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:03:28 GMT', 'content-type': 'application/octet-stream', 'content-length': '36778', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'content-range': 'bytes 0-36777/36778', 'etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'last-modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': '6c3a2e88715c0f022e00d886bec523bd1253dd14127c0110f168daa62ca4c3cb', 'x-amz-request-id': '189165356621D20F', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:03 - DEBUG - Response body:
+<ClientResponse(https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.parquet) [206 Partial Content]>
+<CIMultiDictProxy('Date': 'Thu, 05 Feb 2026 16:03:28 GMT', 'Content-Type': 'application/octet-stream', 'Content-Length': '36778', 'Connection': 'keep-alive', 'Accept-Ranges': 'bytes', 'Content-Range': 'bytes 0-36777/36778', 'Etag': '"b9003e173b0cf3f92b76b9127ac5a6bb"', 'Last-Modified': 'Thu, 05 Feb 2026 15:39:09 GMT', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin', 'Vary': 'Accept-Encoding', 'X-Amz-Id-2': '6c3a2e88715c0f022e00d886bec523bd1253dd14127c0110f168daa62ca4c3cb', 'X-Amz-Request-Id': '189165356621D20F', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '6376', 'X-Ratelimit-Remaining': '6376', 'X-Xss-Protection': '1; mode=block')>
+
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x7fa80aa1c4a0>
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.GetObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7fa763031550>
+2026-02-05 16:03 - DEBUG - No retry needed.
+2026-02-05 16:03 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7fa7630316a0>>
+2026-02-05 16:03 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.parquet> read: 0 - 36778  , readahead: 0 hits, 1 misses, 36778 total requested bytes
+2026-02-05 16:03 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.parquet> read: 4 - 34764  , readahead: 1 hits, 1 misses, 36778 total requested bytes
+2026-02-05 16:03 - INFO - 76.7% de bonnes réponses sur les données de test pour validation
+2026-02-05 16:03 - INFO - --------------------
+2026-02-05 16:03 - INFO - matrice de confusion
+2026-02-05 16:03 - INFO - [[44 12]
+ [ 9 25]]
+2026-02-05 16:06 - INFO - API token has been configured properly
+2026-02-05 16:06 - DEBUG - Using selector: EpollSelector
+2026-02-05 16:06 - DEBUG - Setting up s3fs instance
+2026-02-05 16:06 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-02-05 16:06 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-02-05 16:06 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-02-05 16:06 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-02-05 16:06 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-02-05 16:06 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-02-05 16:06 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-02-05 16:06 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-02-05 16:06 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-02-05 16:06 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-02-05 16:06 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-02-05 16:06 - DEBUG - RC: caching enabled? False (explicit option is False)
+2026-02-05 16:06 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-02-05 16:06 - DEBUG - Looking for credentials via: env
+2026-02-05 16:06 - INFO - Found credentials in environment variables.
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/endpoints.json
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+2026-02-05 16:06 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f2d8b80c0e0>
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/partitions.json
+2026-02-05 16:06 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f2d8b524fe0>
+2026-02-05 16:06 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f2d8b524d60>
+2026-02-05 16:06 - DEBUG - Setting s3 timeout as (5, 15)
+2026-02-05 16:06 - DEBUG - Loading JSON file: /opt/python/lib/python3.13/site-packages/botocore/data/_retry.json
+2026-02-05 16:06 - DEBUG - Registering retry handlers for service: s3
+2026-02-05 16:06 - DEBUG - Registering S3 region redirector handler
+2026-02-05 16:06 - DEBUG - Registering S3Express Identity Resolver
+2026-02-05 16:06 - DEBUG - CALL: head_object - ({},) - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv'}
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f2d8b80dbc0>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f2d8b80db20>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7f2d8b80fe20>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7f2ce506d2b0>>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f2d8b80d940>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function _handle_request_validation_mode_member at 0x7f2d8b81c540>
+2026-02-05 16:06 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7f2d8b81c040>
+2026-02-05 16:06 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:06 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:06 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:06 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:06 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f2d8b80dee0>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f2cdffbd7f0>>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x7f2d8b80c900>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x7f2d8b80f420>
+2026-02-05 16:06 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.csv', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/N,D,b,g,Z cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.csv', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.csv', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7f2cdffa82d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2026-02-05 16:06 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7f2ce506f770>>
+2026-02-05 16:06 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7f2ce506d2b0>>
+2026-02-05 16:06 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f2d8b80d6c0>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x7f2d8b80ff60>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7f2d8b81c5e0>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f2cdffbd7f0>>
+2026-02-05 16:06 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:06 - DEBUG - CanonicalRequest:
+HEAD
+/mcoppa06/ensae-reproductibilite/data/raw/data.csv
+
+host:minio.lab.sspcloud.fr
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160617Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:06 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160617Z
+20260205/us-east-1/s3/aws4_request
+23578bb5c03a40f4f40406ed2aca8bdd77efd9051fd91c0e3fedaf9437f7b694
+2026-02-05 16:06 - DEBUG - Signature:
+74cfc1716d48a9e9d0236c96b78f7aea4f80a88cba548f6c605934e4833847ff
+2026-02-05 16:06 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7f2cdffa8f50>>
+2026-02-05 16:06 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x7f2d8b80fd80>
+2026-02-05 16:06 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.csv, headers={'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/N,D,b,g,Z cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160617Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=74cfc1716d48a9e9d0236c96b78f7aea4f80a88cba548f6c605934e4833847ff', 'amz-sdk-invocation-id': b'd67ffc9b-02d3-4deb-8960-89a56be51b6b', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:06 - DEBUG - Certificate path: /opt/python/lib/python3.13/site-packages/certifi/cacert.pem
+2026-02-05 16:06 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function _handle_200_error at 0x7f2d8b81c360>
+2026-02-05 16:06 - DEBUG - Event before-parse.s3.HeadObject: calling handler <function handle_expires_header at 0x7f2d8b81c180>
+2026-02-05 16:06 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:06:17 GMT', 'content-type': 'text/csv', 'content-length': '61194', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'etag': '"2309cc5f04782ed9bb6016d9f4e381cf"', 'last-modified': 'Wed, 04 Feb 2026 21:22:32 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': 'e8de20ed28534ac76addbbb5eb72ae3dcd1e159397b5d8f7e169e743c787e87a', 'x-amz-request-id': '1891655CBE519DAC', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:06 - DEBUG - Response body:
+b''
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <function _update_status_code at 0x7f2d8b81c4a0>
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7f2cdffbd550>
+2026-02-05 16:06 - DEBUG - No retry needed.
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - Fetch: mcoppa06/ensae-reproductibilite/data/raw/data.csv, 0-61194
+2026-02-05 16:06 - DEBUG - CALL: get_object - () - {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv', 'Range': 'bytes=0-61193', 'IfMatch': '"2309cc5f04782ed9bb6016d9f4e381cf"'}
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f2d8b80dbc0>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f2d8b80db20>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7f2d8b80fe20>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <aiobotocore.client.AioClientCreator object at 0x7f2ce506d2b0>>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f2d8b80d940>
+2026-02-05 16:06 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x7f2d8b81c540>
+2026-02-05 16:06 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7f2d8b81c040>
+2026-02-05 16:06 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'mcoppa06', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://minio.lab.sspcloud.fr', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'ensae-reproductibilite/data/raw/data.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-05 16:06 - DEBUG - Endpoint provider result: https://minio.lab.sspcloud.fr/mcoppa06
+2026-02-05 16:06 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-05 16:06 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-05 16:06 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f2d8b80dee0>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f2cdffbd7f0>>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x7f2d8b80c900>
+2026-02-05 16:06 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x7f2d8b80f420>
+2026-02-05 16:06 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/ensae-reproductibilite/data/raw/data.csv', 'query_string': {}, 'method': 'GET', 'headers': {'Range': 'bytes=0-61193', 'If-Match': '"2309cc5f04782ed9bb6016d9f4e381cf"', 'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/N,D,b,g,Z cfg/retry-mode#legacy botocore/1.42.30'}, 'body': b'', 'auth_path': '/mcoppa06/ensae-reproductibilite/data/raw/data.csv', 'url': 'https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.csv', 'context': {'client_region': 'us-east-1', 'client_config': <aiobotocore.config.AioConfig object at 0x7f2cdffa82d0>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'mcoppa06', 'params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv', 'Range': 'bytes=0-61193', 'IfMatch': '"2309cc5f04782ed9bb6016d9f4e381cf"', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'mcoppa06', 'Key': 'ensae-reproductibilite/data/raw/data.csv'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256']}}}
+2026-02-05 16:06 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method AioRequestSigner.handler of <aiobotocore.signers.AioRequestSigner object at 0x7f2ce506f770>>
+2026-02-05 16:06 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <aiobotocore.client.AioClientCreator object at 0x7f2ce506d2b0>>
+2026-02-05 16:06 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f2d8b80d6c0>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x7f2d8b80ff60>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x7f2d8b81c5e0>
+2026-02-05 16:06 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <aiobotocore.utils.AioS3ExpressIdentityResolver object at 0x7f2cdffbd7f0>>
+2026-02-05 16:06 - DEBUG - Calculating signature using v4 auth.
+2026-02-05 16:06 - DEBUG - CanonicalRequest:
+GET
+/mcoppa06/ensae-reproductibilite/data/raw/data.csv
+
+host:minio.lab.sspcloud.fr
+if-match:"2309cc5f04782ed9bb6016d9f4e381cf"
+range:bytes=0-61193
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260205T160617Z
+x-amz-security-token:eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw
+
+host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-02-05 16:06 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260205T160617Z
+20260205/us-east-1/s3/aws4_request
+f3beb5bd97287923c1774030594a5a94e35b619c4df503095f11737dca576dca
+2026-02-05 16:06 - DEBUG - Signature:
+f5cd35830b135a1b9ff37de96d9ea482ddbb90d563fddfd7c286515c083c3ef4
+2026-02-05 16:06 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x7f2cdffa8f50>>
+2026-02-05 16:06 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x7f2d8b80fd80>
+2026-02-05 16:06 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.csv, headers={'Range': b'bytes=0-61193', 'If-Match': b'"2309cc5f04782ed9bb6016d9f4e381cf"', 'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'aiobotocore/3.1.1 md/Botocore#1.42.30 ua/2.1 os/linux#6.12.63+deb13-amd64 md/arch#x86_64 lang/python#3.13.11 md/pyimpl#CPython m/N,D,b,g,Z cfg/retry-mode#legacy botocore/1.42.30', 'X-Amz-Date': b'20260205T160617Z', 'X-Amz-Security-Token': b'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiI5MFJaOTM2Tk9VV1hOMEI5OUUwSiIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sImF1ZCI6WyJtaW5pby1kYXRhbm9kZSIsIm9ueXhpYSIsImFjY291bnQiXSwiYXV0aF90aW1lIjoxNzcwMTk3Mjk1LCJhenAiOiJvbnl4aWEiLCJlbWFpbCI6Im1heGltZS5jb3BwYUBlbnNhZS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJleHAiOjE3NzA4MDIxODksImZhbWlseV9uYW1lIjoiQ09QUEEiLCJnaXZlbl9uYW1lIjoiTWF4aW1lIiwiZ3JvdXBzIjpbIlVTRVJfT05ZWElBIl0sImlhdCI6MTc3MDE5NzM4OSwiaXNzIjoiaHR0cHM6Ly9hdXRoLmxhYi5zc3BjbG91ZC5mci9hdXRoL3JlYWxtcy9zc3BjbG91ZCIsImp0aSI6Im9ucnRydDphMWMyMTM1ZC05OTI1LWExNjEtMTI1OC03ZjI3NmM5OWNmOWQiLCJuYW1lIjoiTWF4aW1lIENPUFBBIiwicG9saWN5Ijoic3Rzb25seSIsInByZWZlcnJlZF91c2VybmFtZSI6Im1jb3BwYTA2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXNzcGNsb3VkIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc3NwY2xvdWQiXSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBncm91cHMgZW1haWwiLCJzaWQiOiI1MmNlNWM3Yi04NzliLWU3ZmQtYzU0ZS02ZDAzOTUzNjg5NTgiLCJzdWIiOiI0ODc2YjcyOC00ZWJlLTQ1NGQtOTZjZi0zMmVjY2UzOGZhNjUiLCJ0eXAiOiJCZWFyZXIifQ.Wjwy94tjhJKgoVNzUPRDVdexl7Fl_jHSiLgpXS-XtseMW85BeSDD9CM8Gt2qp4_9n3edUmVQL2KlJ-LrfzWpZw', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=90RZ936NOUWXN0B99E0J/20260205/us-east-1/s3/aws4_request, SignedHeaders=host;if-match;range;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=f5cd35830b135a1b9ff37de96d9ea482ddbb90d563fddfd7c286515c083c3ef4', 'amz-sdk-invocation-id': b'a53d7d19-197e-4a5c-8ba6-c4b1029588cf', 'amz-sdk-request': b'attempt=1'}>
+2026-02-05 16:06 - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256'].
+2026-02-05 16:06 - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x7f2d8b81c360>
+2026-02-05 16:06 - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x7f2d8b81c180>
+2026-02-05 16:06 - DEBUG - Response headers: {'date': 'Thu, 05 Feb 2026 16:06:17 GMT', 'content-type': 'text/csv', 'content-length': '61194', 'connection': 'keep-alive', 'accept-ranges': 'bytes', 'content-range': 'bytes 0-61193/61194', 'etag': '"2309cc5f04782ed9bb6016d9f4e381cf"', 'last-modified': 'Wed, 04 Feb 2026 21:22:32 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'vary': 'Accept-Encoding', 'x-amz-id-2': 'c03a4092da4644d3e14d2965a90c5fa3a7f10067eee00244bd436b2c0f8f57c2', 'x-amz-request-id': '1891655CC162EA87', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '6376', 'x-ratelimit-remaining': '6376', 'x-xss-protection': '1; mode=block'}
+2026-02-05 16:06 - DEBUG - Response body:
+<ClientResponse(https://minio.lab.sspcloud.fr/mcoppa06/ensae-reproductibilite/data/raw/data.csv) [206 Partial Content]>
+<CIMultiDictProxy('Date': 'Thu, 05 Feb 2026 16:06:17 GMT', 'Content-Type': 'text/csv', 'Content-Length': '61194', 'Connection': 'keep-alive', 'Accept-Ranges': 'bytes', 'Content-Range': 'bytes 0-61193/61194', 'Etag': '"2309cc5f04782ed9bb6016d9f4e381cf"', 'Last-Modified': 'Wed, 04 Feb 2026 21:22:32 GMT', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin', 'Vary': 'Accept-Encoding', 'X-Amz-Id-2': 'c03a4092da4644d3e14d2965a90c5fa3a7f10067eee00244bd436b2c0f8f57c2', 'X-Amz-Request-Id': '1891655CC162EA87', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '6376', 'X-Ratelimit-Remaining': '6376', 'X-Xss-Protection': '1; mode=block')>
+
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x7f2d8b81c4a0>
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.GetObject: calling handler <aiobotocore.retryhandler.AioRetryHandler object at 0x7f2cdffbd550>
+2026-02-05 16:06 - DEBUG - No retry needed.
+2026-02-05 16:06 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method AioS3RegionRedirectorv2.redirect_from_error of <aiobotocore.utils.AioS3RegionRedirectorv2 object at 0x7f2cdffbd6a0>>
+2026-02-05 16:06 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.csv> read: 0 - 262144  , readahead: 0 hits, 1 misses, 61194 total requested bytes
+2026-02-05 16:06 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.csv> read: 61194 - 262144  , readahead: 0 hits, 1 misses, 61194 total requested bytes
+2026-02-05 16:06 - DEBUG - <File-like object S3FileSystem, mcoppa06/ensae-reproductibilite/data/raw/data.csv> read: 61194 - 323338  , readahead: 0 hits, 1 misses, 61194 total requested bytes
+2026-02-05 16:06 - INFO - 81.1% de bonnes réponses sur les données de test pour validation
+2026-02-05 16:06 - INFO - --------------------
+2026-02-05 16:06 - INFO - matrice de confusion
+2026-02-05 16:06 - INFO - [[42  6]
+ [11 31]]
+2026-02-05 16:09 - INFO - API token has been configured properly
+2026-02-05 16:09 - INFO - Found credentials in environment variables.
+2026-02-05 16:09 - INFO - 74.4% de bonnes réponses sur les données de test pour validation
+2026-02-05 16:09 - INFO - --------------------
+2026-02-05 16:09 - INFO - matrice de confusion
+2026-02-05 16:09 - INFO - [[43 13]
+ [10 24]]

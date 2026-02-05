@@ -1,0 +1,4 @@
+Some example of S3 loader in s3_loader.py
+Problem with minIO to set in public ?
+A lot of warning message when importing using sf3s
+

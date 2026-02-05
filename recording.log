@@ -580,3 +580,10 @@ f5cd35830b135a1b9ff37de96d9ea482ddbb90d563fddfd7c286515c083c3ef4
 2026-02-05 16:09 - INFO - matrice de confusion
 2026-02-05 16:09 - INFO - [[43 13]
  [10 24]]
+2026-02-05 16:39 - INFO - API token has been configured properly
+2026-02-05 16:39 - INFO - Found credentials in environment variables.
+2026-02-05 16:39 - INFO - 88.9% de bonnes réponses sur les données de test pour validation
+2026-02-05 16:39 - INFO - --------------------
+2026-02-05 16:39 - INFO - matrice de confusion
+2026-02-05 16:39 - INFO - [[52  5]
+ [ 5 28]]

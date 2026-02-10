@@ -21,9 +21,8 @@ import duckdb
 from src.validation.check import (
     check_name_formatting,
     check_missing_values,
-    check_data_leakage
+    check_data_leakage,
 )
-
 
 load_dotenv()
 con = duckdb.connect(database=":memory:")
@@ -33,10 +32,7 @@ logging.basicConfig(
     style="{",
     datefmt="%Y-%m-%d %H:%M",
     level=logging.DEBUG,
-    handlers=[
-        logging.FileHandler("recording.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("recording.log"), logging.StreamHandler()],
 )
 
 
@@ -68,7 +64,9 @@ logging.debug(f"Valeur de l'argument n_trees: {n_trees}")
 
 logging.debug(f"\n{80*'-'}\nStarting data validation step\n{80*'-'}")
 
-query_definition = f"CREATE TEMP TABLE titanic AS (SELECT * FROM read_parquet('{URL_RAW}'))"
+query_definition = (
+    f"CREATE TEMP TABLE titanic AS (SELECT * FROM read_parquet('{URL_RAW}'))"
+)
 con.sql(query_definition)
 
 column_names = con.sql("SELECT column_name FROM (DESCRIBE titanic)").to_df()[
@@ -146,7 +144,9 @@ pipe.fit(X_train, y_train)
 rdmf_score = pipe.score(X_test, y_test)
 rdmf_score_tr = pipe.score(X_train, y_train)
 
-logging.info(f"{rdmf_score:.1%} de bonnes réponses sur les données de test pour validation")
+logging.info(
+    f"{rdmf_score:.1%} de bonnes réponses sur les données de test pour validation"
+)
 
 logging.info("Matrice de confusion:")
 logging.info(confusion_matrix(y_test, pipe.predict(X_test)))
